@@ -1,4 +1,4 @@
-package homework4;
+//package homework4;
 
 class ControlPanelTest {
     public static void main(String[] args) {
