@@ -1,6 +1,6 @@
-//package homework4;
+package homework4;
 
-class ControlPanelTest {
+public class ControlPanelTest {
     public static void main(String[] args) {
         new ControlPanel().control();
     }
@@ -25,8 +25,9 @@ class ControlPanel {
     private AirGauge airGauge   = new AirGauge();
 
     public void control() {
-        System.out.println(altimeter);
-        System.out.println(airGauge);
+        System.out.print(altimeter);
+        System.out.print(" ");
+        System.out.print(airGauge);
     }
 
 }
