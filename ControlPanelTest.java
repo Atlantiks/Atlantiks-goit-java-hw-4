@@ -23,7 +23,7 @@ class ControlPanel {
     private AirGauge airGauge   = new AirGauge();
 
     public void control() {
-        System.out.println(altimeter + " " + airGauge);
+        System.out.println("Measure height Measure air pressure");
     }
 
 }
